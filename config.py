@@ -90,9 +90,9 @@ keys = [
     Key([mod], "f", lazy.window.toggle_fullscreen()),
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     Key([mod, "shift"], "Return", lazy.spawn("nemo"), desc='Nemo'),
-    Key([mod, "shift"], "Print", lazy.spawn('gnome-screenshot -i'),
+    Key([mod, "shift"], "Print", lazy.spawn('gnome-screenshot -i')),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
-    Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile")),
+    Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     
 
     # Window Focus
