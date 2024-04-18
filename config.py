@@ -238,7 +238,7 @@ screens = [
 		        widget.WindowName(font="JetbrainsMono Nerd Font Bold",
                         fontsize = 15,
                         foreground = colors[2],
-                        background = colors[1],
+                        background = colors[0],
                         **arrow_powerlineRight,
                         ),
                 widget.PulseVolume(font="JetbrainsMono Nerd Font Bold",
